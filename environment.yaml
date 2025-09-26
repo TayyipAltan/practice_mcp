@@ -1,0 +1,11 @@
+name: mcp_venv
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - pip:
+    - httpx
+    - fastapi
+    - uvicorn
+    - mcp[cli]
